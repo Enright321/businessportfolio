@@ -201,6 +201,8 @@ header {
 
 .growth-details .row div p {
   text-align: left;
+  max-width: 400px;
+  padding: 0.25rem 0;
 }
 
 /* section 3: Projects */
@@ -235,8 +237,6 @@ header {
 .container-2 .col {
   display: flex;
   flex-direction: column;
-  /* justify-content: ; */
-  /* align-items: center; */
 }
 .sec-3 img {
   height: 400px;
@@ -393,6 +393,24 @@ textarea {
   }
   #footer ul {
     padding: 0.5rem 0;
+  }
+  .growth-details .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0rem;
+  }
+  .growth-details .row div {
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .growth-details .row div i {
+    display: none;
+  }
+  .growth-details .row div p {
+    padding: 0.25rem 0;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 375px) {
