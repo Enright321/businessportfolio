@@ -279,9 +279,7 @@ header {
   border-radius: 5px;
   padding: 2rem 5rem;
 }
-.form-hidden {
-  display: none !important;
-}
+
 .form-col {
   display: flex;
   flex-direction: column;
