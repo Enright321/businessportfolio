@@ -52,7 +52,7 @@ h1 {
   font-size: 2.5rem;
 }
 .logo {
-  width: 150px;
+  width: 175px;
   height: 150px;
 }
 
@@ -254,6 +254,7 @@ header {
 /* footer */
 #footer {
   min-height: 10rem;
+  padding-bottom: 1rem;
 }
 #footer .container {
   display: flex;
@@ -380,6 +381,9 @@ textarea {
   .container-2 img {
     width: 50%;
     height: auto;
+  }
+  #footer .container {
+    flex-direction: column;
   }
 }
 @media only screen and (max-width: 460px) {
