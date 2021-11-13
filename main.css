@@ -51,6 +51,10 @@ h6 {
 h1 {
   font-size: 2.5rem;
 }
+.logo {
+  width: 150px;
+  height: 150px;
+}
 
 /* utility */
 .container,
@@ -127,7 +131,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 8rem;
+  padding-top: 2rem;
 }
 .hero-text p,
 .hero-text h1 {
@@ -150,7 +154,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* overflow: hidden; */
 }
 .sec-1 h2 {
   padding-bottom: 2rem;
@@ -171,8 +174,6 @@ header {
 .sec-2 {
   min-height: 80vh;
   position: relative;
-  /* margin: auto; */
-  /* overflow: hidden; */
 }
 .sec-2 .sec2-img {
   position: absolute;
@@ -213,7 +214,6 @@ header {
 }
 .sec-3 .container {
   border-radius: 5px;
-  /* background: linear-gradient(145deg, #cacaca, #f0f0f0); */
   background: var(--primary-color);
   box-shadow: 20px 20px 0px #5a5a5a, -20px -20px 0px var(--secondary-color);
 }
@@ -320,7 +320,6 @@ textarea {
   width: 100%;
   margin: 0.25rem 0;
   padding: 1rem;
-  /* text-align: center; */
 }
 
 /* media queries */
@@ -354,6 +353,9 @@ textarea {
   }
   .navbar ul {
     padding: 0.5rem 0;
+  }
+  #hero {
+    padding-top: 4rem;
   }
   .hero-image img {
     display: none;
