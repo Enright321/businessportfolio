@@ -335,6 +335,11 @@ textarea {
     justify-content: center;
     padding: 1rem 0;
   }
+  .container-2 .row-3 {
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0;
+  }
   .container-2 h3 {
     padding-top: 1rem;
   }
