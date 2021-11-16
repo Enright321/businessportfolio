@@ -4,7 +4,8 @@
 // 3. detect when element is within the viewport
 // 4. assign scrolled class name to the element if it is in view
 
-const scrollOffset = 100;
+const scrollOffset = 0;
+let throttleTimer = false;
 
 const scrollElement = document.querySelector('.js-scroll');
 
@@ -33,6 +34,16 @@ const handleScrollAnimation = () => {
   }
 };
 
+const throttle = (callback, time) => {
+  if (throttleTimer) return;
+  throttleTimer = true;
+
+  setTimeout(() => {
+    callback();
+    throttleTimer = false;
+  }, time);
+};
+
 window.addEventListener('scroll', () => {
-  handleScrollAnimation();
+  throttle(handleScrollAnimation, 250);
 });
