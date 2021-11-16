@@ -63,6 +63,9 @@ h1 {
   margin: auto;
   padding: 2rem;
 }
+.container {
+  position: relative;
+}
 .container-2 {
   background-color: white;
   margin-top: 5rem;
@@ -96,7 +99,7 @@ header {
 }
 .main-header {
   background-color: #fff;
-  min-height: 100vh;
+  min-height: 60vh;
 }
 .main-nav {
   background-image: url('./images/wave.svg');
@@ -137,6 +140,10 @@ header {
 .hero-text h1 {
   padding-bottom: 1rem;
 }
+.hero-text h1 {
+  font-size: 2rem;
+  max-width: 600px;
+}
 .hero-text {
   padding-right: 2rem;
 }
@@ -148,7 +155,7 @@ header {
 
 /* Section 1: Experience */
 .sec-1 {
-  min-height: 60vh;
+  min-height: 55vh;
   background-color: var(--bg-color);
   display: flex;
   flex-direction: column;
